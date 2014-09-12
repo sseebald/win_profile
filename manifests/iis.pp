@@ -58,7 +58,7 @@ class profile::iis {
   }
   
   iis::manage_app_pool { 'Default Web Site':
-    ensure =>  absent,,
+    ensure =>  absent,
   }
 
 }
